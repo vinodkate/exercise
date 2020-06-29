@@ -1,11 +1,11 @@
 # exercise
 Practical Exercise
 
-1. To run this project pull it and run the command - <code>composer install</code>
+- To run this project clone it and and by navigating to project directory run the command  <code>composer install</code>
 
-2. Import the databse <code>exercise.sql</code> available in this project directory.
+- Import the databse <code>exercise.sql</code> available in this project directory.
 
-3. set database credentials in .env file like databse, username, password
+- Set database credentials in .env file like databse, username, password
 
 <pre>
 DB_CONNECTION=mysql
