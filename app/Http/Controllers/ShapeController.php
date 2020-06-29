@@ -27,4 +27,22 @@ class ShapeController extends Controller
         exit();
         
     }
+
+    /**
+     * Exercise2
+     */
+    public function exercise2()
+    {
+        echo "<br><b>1-b.</b> SSH to server - <code>SSH username@host.com</code><br>";
+
+        echo "<br><b>1-c.</b> Check the disk usage - <code>disk_free_space('/directory');</code><br>";
+
+        echo "<br><b>4.a </b>Command to observe performance - <code>top</code><br>";
+
+        echo "<br><b>5.</b> Query to create view on routers table - <code> CREATE VIEW router_view AS
+        SELECT *
+        FROM routers;</code><br>";
+
+        
+    }
 }

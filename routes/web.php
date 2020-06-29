@@ -19,4 +19,7 @@ Route::get('/', function () {
 Route::resource('router', 'RouterController');
 
 // Get router for shape
-Route::get('shape', 'ShapeController@shape');
+Route::get('shape', 'ShapeController@shape')->name('shape');
+
+// Get router for shape
+Route::get('exercise2', 'ShapeController@exercise2')->name('exercise2');

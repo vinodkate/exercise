@@ -84,6 +84,8 @@
 
                 <div class="links">
                     <a href="{{ route('router.index') }}">Router List</a>
+                    <a href="{{ route('shape') }}">Shape</a>
+                    <a href="{{ route('exercise2') }}">Exercise2</a>
                 </div>
             </div>
         </div>
